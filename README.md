@@ -74,3 +74,11 @@ Push your changes to Overleaf:
 
     $ git pull overleaf master
     $ git push overleaf master
+
+## Merge changes and handle conflicts
+
+First edit Overleaf document and the local document at different sections.
+Update your changes with the remote overleaf document. Changes will be merged automatically.
+
+Now make edits at the same text line locally and in overleaf. Update your changes again
+but this time you will need to solve a merge conflict.   
