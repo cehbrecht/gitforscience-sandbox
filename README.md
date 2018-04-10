@@ -40,4 +40,6 @@ Edit your Overleaf document locally:
 
 Commit your changes:
 
-     
+     $ git status
+     $ git commit -a -m "update"
+     $ git push
