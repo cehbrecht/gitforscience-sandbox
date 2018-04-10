@@ -95,6 +95,12 @@ Not a good choice ... but possible:
 * use Git LFS extension to handle binary files.
 * use pandoc: http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/
 
+Resolve merge conflict with docx:
+* https://stackoverflow.com/questions/278081/resolving-a-git-conflict-with-binary-files
+* `git mergetool`
+* merge with Word: https://support.office.com/en-us/article/Combine-documents-f8f07f09-4461-4376-b041-89ad67412cfe
+* close merge editor
+
 ## Links
 
 Overleaf:
