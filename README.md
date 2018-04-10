@@ -137,3 +137,6 @@ Good Alternatives to LaTeX:
 * Restructred Text: http://docutils.sourceforge.net/rst.html
   * Sphinx: http://www.sphinx-doc.org/en/master/
   * ReadTheDocs: https://readthedocs.org/
+
+Using Overleaf with Jupyter Notebooks:
+https://medium.com/thoughts-philosophy-writing/how-to-update-overleaf-from-a-juypter-notebook-5469b1405fdc
