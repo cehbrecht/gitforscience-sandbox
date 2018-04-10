@@ -25,6 +25,15 @@ Create a Git repo on GitHub and clone it:
     $ git clone git@github.com:cehbrecht/gitforscience-sandbox.git
     $ cd gitforscience-sandbox
 
+
+**OR**
+
+Create you own local Git repo:
+
+     $ mkdir gitforscience-sandbox
+     $ cd gitforscience-sandbox
+     $ git init
+
 Add the overleaf git repo as remote:
 
     $ git remote add overleaf https://git.overleaf.com/15422340tzpscybmktkc
@@ -33,7 +42,7 @@ Add the overleaf git repo as remote:
 Make your repo identical to the overleaf repo. Be careful with this ... you will loose everything on your local master branch:
 
     $ git reset --hard overleaf/master
-    # push it to your remote origin master
+    # push it to your remote origin master ... if you have a remote
     $ git push --force
 
 ### Update Overleaf document with local changes
@@ -46,7 +55,7 @@ Commit your changes:
 
      $ git status
      $ git commit -a -m "update"
-     $ git push
+     $ git push   # push to remote origin master if you have one
 
 Push your changes to Overleaf:
 
@@ -66,7 +75,7 @@ but this time you will need to solve a merge conflict.
 With git you can tag a version:
 
     $ git tag 0.1
-    $ git push --tags
+    $ git push --tags  # push all tags to your remote
 
 Use this tag to create a release on GitHub:
 https://help.github.com/articles/creating-releases/
