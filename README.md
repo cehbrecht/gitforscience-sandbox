@@ -8,7 +8,9 @@ Overleaf:
 * https://www.overleaf.com/
 * Online collaborative LaTeX editor with integrated real-time preview.
 * Uses Git in the background.
-* Alternative ShareLatex: https://www.sharelatex.com/
+* Alternatives
+  * ShareLatex: https://www.sharelatex.com/
+  * Authorea (LaTeX and Markdown): https://www.authorea.com/
 
 GitHub:
 * https://github.com/
@@ -18,7 +20,7 @@ Git:
 * https://git-scm.com/
 * Version control system for decentralised software development.
 
-LaTex:
+LaTeX:
 * https://www.tug.org/texlive/
 * TexLive on macOS: https://www.tug.org/mactex/
 * On macOS install it with homebrew: http://yabas.net/blog/install-latex-on-mac-with-brew/
@@ -27,8 +29,15 @@ LaTex:
 Editors:
 * Atom: https://atom.io/
 
+Doc Converters:
+* Pandoc: https://pandoc.org/
+
 Good Alternatives to LaTeX:
-* Markdown
+* Markdown: https://daringfireball.net/projects/markdown/
+  * Authorea: https://www.authorea.com/
+* Restructred Text: http://docutils.sourceforge.net/rst.html
+  * Sphinx: http://www.sphinx-doc.org/en/master/
+  * ReadTheDocs: https://readthedocs.org/
 
 
 ## Edit Overleaf document
