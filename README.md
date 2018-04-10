@@ -27,6 +27,9 @@ LaTex:
 Editors:
 * Atom: https://atom.io/
 
+Good Alternatives to LaTeX:
+* Markdown
+
 
 ## Edit Overleaf document
 
@@ -82,3 +85,28 @@ Update your changes with the remote overleaf document. Changes will be merged au
 
 Now make edits at the same text line locally and in overleaf. Update your changes again
 but this time you will need to solve a merge conflict.   
+
+## Tag a version
+
+With git you can tag a version:
+
+  $ git tag 0.1
+  $ git push --tags
+
+Use this tag to create a release on GitHub:
+https://help.github.com/articles/creating-releases/
+
+## Create a DOI to reference your paper
+
+Using an online service you can create automatically a DOI for your paper on GitHub
+whenever you make a new release:
+
+https://guides.github.com/activities/citable-code/
+
+## Handle large files with Git
+
+Version controls are made for coding and can handle text files very well.
+They can be used for binary files as well but this has some limitations.
+You can use Git LFS extension on GitHub to get around these limitations. Large binary files will then be stored in an external storage and not in the Git repo itself. The Git repo has only pointers to these files.
+
+https://git-lfs.github.com/
