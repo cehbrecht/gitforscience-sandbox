@@ -7,13 +7,13 @@ Sandbox for Git-for-Science Workshop.
 
 ### Edit Overleaf document
 
-Read and Edit:
+Read and Edit online:
 https://www.overleaf.com/15422340tzpscybmktkc
 
 Read only:
 https://www.overleaf.com/read/zncknkybdkxg
 
-Git clone:
+Git clone to work offline:
 
     $ git clone https://git.overleaf.com/15422340tzpscybmktkc
 
@@ -87,6 +87,13 @@ They can be used for binary files as well but this has some limitations.
 You can use Git LFS extension on GitHub to get around these limitations. Large binary files will then be stored in an external storage and not in the Git repo itself. The Git repo has only pointers to these files.
 
 https://git-lfs.github.com/
+
+## But I have to use Word!
+
+Not a good choice ... but possible:
+
+* use Git LFS extension to handle binary files.
+* use pandoc: http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/
 
 ## Links
 
