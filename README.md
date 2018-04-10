@@ -2,7 +2,33 @@
 
 Sandbox for Git-for-Science Workshop.
 
-## Overleaf document
+## Tools
+
+Overleaf:
+* https://www.overleaf.com/
+* Online collaborative LaTeX editor with integrated real-time preview.
+* Uses Git in the background.
+* Alternative ShareLatex: https://www.sharelatex.com/
+
+GitHub:
+* https://github.com/
+* Online service for Git repositories and collaborative developing.
+
+Git:
+* https://git-scm.com/
+* Version control system for decentralised software development.
+
+LaTex:
+* https://www.tug.org/texlive/
+* TexLive on macOS: https://www.tug.org/mactex/
+* On macOS install it with homebrew: http://yabas.net/blog/install-latex-on-mac-with-brew/
+* Write beautiful documents.
+
+Editors:
+* Atom: https://atom.io/
+
+
+## Edit Overleaf document
 
 Read and Edit:
 https://www.overleaf.com/15422340tzpscybmktkc
@@ -43,3 +69,8 @@ Commit your changes:
      $ git status
      $ git commit -a -m "update"
      $ git push
+
+Push your changes to Overleaf:
+
+    $ git pull overleaf master
+    $ git push overleaf master
