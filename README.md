@@ -91,8 +91,8 @@ but this time you will need to solve a merge conflict.
 
 With git you can tag a version:
 
-   $ git tag 0.1
-   $ git push --tags
+    $ git tag 0.1
+    $ git push --tags
 
 Use this tag to create a release on GitHub:
 https://help.github.com/articles/creating-releases/
