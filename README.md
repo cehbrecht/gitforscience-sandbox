@@ -46,6 +46,7 @@ Git clone:
 ## Push my Overleaf document to my GitHub repo
 
 Create a Git repo on GitHub and clone it:
+
     # Please create your own ... just showing the example with my sandbox
     $ git clone git@github.com:cehbrecht/gitforscience-sandbox.git
     $ cd gitforscience-sandbox
@@ -55,10 +56,10 @@ Add the overleaf git repo as remote:
     $ git remote add overleaf https://git.overleaf.com/15422340tzpscybmktkc
     $ git remote -v
 
-Make your repo identical to the overleaf repo. Be careful with this ... you will loose everything in the master branch:
+Make your repo identical to the overleaf repo. Be careful with this ... you will loose everything on your local master branch:
 
     $ git reset --hard overleaf/master
-    # push it to your remote
+    # push it to your remote origin master
     $ git push --force
 
 ## Update Overleaf document with local changes
@@ -90,8 +91,8 @@ but this time you will need to solve a merge conflict.
 
 With git you can tag a version:
 
-  $ git tag 0.1
-  $ git push --tags
+   $ git tag 0.1
+   $ git push --tags
 
 Use this tag to create a release on GitHub:
 https://help.github.com/articles/creating-releases/
